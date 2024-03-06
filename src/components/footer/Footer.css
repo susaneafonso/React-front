@@ -1,0 +1,39 @@
+.container-foot{
+display: flex;
+flex-direction: column;  
+height: 60px;  
+width: 100%;
+background-color: rgba(2, 10, 20, 1);
+}
+.container-top ul, .container-btt ul{
+display: flex;
+flex-direction: row;
+margin-top: 0;
+margin-bottom: 5px;
+}
+.container-btt,.container-top{
+margin-top:0;
+margin-bottom: 0;
+width: 90%;
+margin-left: 5%;
+}
+
+.ls-footer li{
+text-decoration: none;
+margin: 0 10px 0 10px;
+border: 2px solid red;
+list-style: none;
+color: aliceblue;
+
+}
+.ls-footer li a{
+color: aliceblue;
+text-decoration: none;
+}
+.ls-adress li{
+list-style: none;
+color: aliceblue;
+margin: 0 10px 0 10px;
+border: 2px solid red;
+}
+

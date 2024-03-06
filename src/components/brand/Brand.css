@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Subrayada:wght@400;700&family=PT+Sans+Narrow&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Salsa&display=swap');
+
+.brand{
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+}
+#logo-img{
+background-image: url("../../assets/img/logo.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+width: 300px;
+}
+
+.intro{
+width: 100%;
+display: flex;
+flex-direction: column;
+font-family: "PT Sans Narrow", sans-serif; 
+font-weight: bold;
+font-size: 35px;
+color: #6698da;
+animation: animacao 1s ease-in-out;
+}
+.intro h3{
+margin-top: 0;
+height: 200px;
+margin-bottom: 0;
+margin-top: 8%;
+padding-left: 20px;
+text-align:left;
+}
+.intro p{
+margin-top: 0;
+margin-bottom: 5%;
+}
+#brand-name{
+font-size: 60px;
+background-image: linear-gradient(to right, #89b6f1, #da2ae0,#780b7c);
+-webkit-background-clip: text;
+color: transparent; 
+}
+#brand-name:hover{
+background-image: linear-gradient(to left, #89b6f1, #da2ae0,#780b7c);
+}
+#small-text{
+font-size: 20px;
+padding-left: 20px;
+color:#819bbd ;
+font-style: italic;
+}
+
+@keyframes animacao {
+    
+    from{
+        transform: translateX(-10%);
+        opacity: 0%;
+    }
+
+    to{
+        transform: translateX(0%);
+        opacity: 100%;
+
+    }
+}
+.intro-sec{
+display: flex;
+flex-direction: column;
+width: 100%;
+flex-direction: column;
+font-family: "PT Sans Narrow", sans-serif; 
+font-weight: bold;
+font-size: 30px;
+color: #6698da;
+position: relative;
+animation: animacao 1s ease-in-out;
+}
+
+
+
+.intro-sec h2{
+    margin-top: 0;
+    height: 70px;
+    margin-bottom: 0;
+    margin-top: 8%;
+    padding-left: 20px;
+   
+    }
+    .intro-sec p{
+    margin-top: 0;
+    margin-bottom: 5%;
+    font-style: normal; 
+   
+    }
+.intro-sec #brand-name{
+font-size: 45px;
+}
+#brand-more{
+background-image: linear-gradient(to left, #1958aa, #bf10c5,#ee86f0);
+border-radius: 10px ;
+font-size: 15px;
+font-style: normal;
+margin-left: 5px;
+-webkit-background-clip: text;
+color: transparent; 
+}
+.container-brand{
+height: 450px;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Subrayada:wght@400;700&family=PT+Sans+Narrow&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Salsa&display=swap');
+
+
+.container-t{
+height: 500px;
+width: 100%;
+display: flex;
+background:  rgba(2, 10, 20, 1);
+z-index: 3;
+justify-content: center;
+align-items: center;
+}
+
+.container-techs{
+height: 400px;
+width: 85%;
+z-index: 3;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.9); */
+/* border-left: 2px solid #89b6f1;
+border-top: 2px solid #f953ff;
+border-right: 2px solid #89b6f1 ;
+border-bottom: 2px solid #780b7c ; */
+}
+/* .container-techs:hover{
+border-left: 2px solid #780b7c;   
+border-top: 2px solid #89b6f1;
+border-right: 2px solid #f953ff;
+border-bottom: 2px solid #89b6f1 ;
+} */
+.container-techs-top{
+width: 100%;
+height: 150px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+}
+
+.python{
+width: 100px;
+height: 100px;
+background-image: url("../../assets/img/python.png");
+background-repeat: no-repeat;
+background-size: contain;
+margin: 0 50px 0 50px;
+position: relative;
+border: 2px solid #eafdff;
+border-radius: 50px;
+box-shadow: 1px 1px 10px 5px rgba(245, 251, 255, 0.2);
+}
+.kotlin{
+width: 100px;
+height: 100px;
+background-image: url("../../assets/img/kotlin.png");
+background-repeat: no-repeat;
+background-position-x:10px;
+background-size: contain;
+margin: 0 50px 0 50px;
+position: relative;
+border: 2px solid #eafdff;
+border-radius: 50px;
+box-shadow: 1px 1px 10px 5px rgba(245, 251, 255, 0.2);
+}
+.java{
+width: 100px;
+height: 100px;
+background-image: url("../../assets/img/java.png");
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0 50px 0 50px;
+position: relative;
+border: 2px solid #eafdff;
+border-radius: 50px;
+box-shadow: 1px 1px 10px 5px rgba(245, 251, 255, 0.2);
+}
+.react{
+height: 100px;
+width: 100px;
+background-image: url("../../assets/img/react.png");
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0 50px 0 50px;
+position: relative;
+border: 2px solid #eafdff;
+border-radius: 50px;
+box-shadow: 1px 1px 10px 5px rgba(245, 251, 255, 0.2);
+}
+.node{
+width: 90px;
+height: 90px;
+background-image: url("../../assets/img/node.png");
+background-repeat: no-repeat;
+background-size: contain;
+margin: 10px 50px 0 50px;
+position: relative;
+border: 2px solid #eafdff;
+border-radius: 50px;
+box-shadow: 1px 1px 10px 5px rgba(245, 251, 255, 0.2);
+}
+.react::after,.java::after,.python::after,.kotlin::after, .node::after{
+content:"";
+position: absolute;
+height: 1px;
+width: 90px;
+bottom: -12px;
+background: transparent;
+box-shadow: 0px 5px 3px 0px rgba(6, 1, 53, 0.2);
+}
+
+
+.techno{
+width:100%;
+height: 100px;
+font-size: 40px;
+text-align: center;
+position: relative;
+}
+.techno::after{
+content: "";
+position: absolute;
+height: 3px;
+width: 50px;
+background-image: linear-gradient(to left, #abf5ff, #eafdff);
+
+}
+
+
+
+.techno h3{
+padding: 10px;
+margin: 0%;
+background-image: linear-gradient(to left, #abf5ff, #eafdff);
+-webkit-background-clip: text;
+color: transparent; 
+font-family: "PT Sans Narrow", sans-serif;
+font-weight: bolder;
+
+}
+
