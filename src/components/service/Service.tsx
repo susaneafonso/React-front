@@ -1,6 +1,7 @@
-import "./Services.css"
+import "./Service.css"
+import React from "react"
 
-export function Services() {
+export function Service() {
   return (
     <>
         <div>

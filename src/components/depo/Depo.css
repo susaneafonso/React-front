@@ -1,0 +1,40 @@
+.container-depo-big{
+height: 300px;
+width: 100%;
+margin: 0;
+display: flex;
+flex-direction: column;
+background:  rgba(2, 10, 20, 1);
+}
+.container-depo-med{
+
+display: flex;
+height: 100%;
+margin: 0 90px 0 90px;
+}
+.container-depo-med h3{
+width: 30%;
+height: 100%;
+margin-top: 0;
+color: white;
+font-size: 50px;
+}
+
+.container-depo-sm p{
+height: 70%;
+background:  rgba(2, 10, 20, 1);
+width: 250px;
+margin: 0 10px 0 10px;
+border-radius: 20px;
+text-align: center;
+box-shadow: 1px 1px 5px 0 rgba(109, 107, 117, 0.2);
+}
+
+
+.container-depo-sm{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 100%;
+}

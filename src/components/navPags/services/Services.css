@@ -1,0 +1,41 @@
+.container-big{
+border:2px solid;
+height: 1300px;
+width: cal (100% - 240px);
+margin: 70px 120px 0 120px;
+/*pixel do outro vai ter q ser 90*/
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.container-serv{
+border: 2px solid red;
+height: 300px;
+width: calc(100% + 50px );
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+}
+.img{
+background-color: blue;
+height: 100%;
+width: 20%;
+}
+.description{
+height: 100%;
+background-color: brown;
+width: 80%;
+border: 1px solid white;
+display: flex;
+flex-direction: row;
+font-size: 30px;
+color: white;
+
+}
+.description ul{
+border: 2px solid red;
+width: 265px;
+margin-top: 0;
+height: 250px;
+text-align: center;
+}
