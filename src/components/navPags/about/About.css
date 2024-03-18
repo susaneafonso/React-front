@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Subrayada:wght@400;700&family=PT+Sans+Narrow&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Salsa&display=swap');
+
+.container-about{
+display:flex;
+flex-direction: row;
+border: 2px solid red;
+height: 800px;
+margin: 100px 90px 0 90px;
+font-family: "PT Sans Narrow", sans-serif; 
+}
+.img-about{
+display: flex;
+flex-direction: row;
+}
+
+#meet-img{
+height: 200px;
+width:200px;
+margin-top: 40px;
+border-radius: 20px;
+mix-blend-mode: screen;
+opacity: 0.4;
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+z-index: 1;
+}
+#coding-img{
+height: 200px;
+width:200px;
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+z-index: 3;
+margin-left: -100px;
+}
+#code-img{
+height: 200px;
+width:200px;
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+margin-top: 150px;
+margin-left: -90px;
+z-index: 2;
+}
+
+
+.container-about-txt{
+display: flex;
+flex-direction: column;
+}
+.container-about-txt h1{
+border: 2px solid blue;
+font-size: 50px;
+padding: 0 50px 0 50px ;
+background-image: linear-gradient(to right, #5393e7, #dcecff,#3dbecf);
+-webkit-background-clip: text;
+color: transparent; 
+margin-top: 130px;
+}
+.container-about-txt p{
+height: 700px;
+border: 2px solid blue;
+text-align: justify;
+padding: 0 50px 0 50px;
+margin-top: 0;
+width: 700px;
+font-size: 20px;
+color: #5393e7;
+}
