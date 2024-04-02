@@ -15,6 +15,7 @@ export function About() {
              <img src={meeting} alt="meeting" id='meet-img' />
              <img src={code} alt="conding" id='code-img' />
              <img src={coding} alt="code" id='coding-img' />
+             <img src={meeting} alt="meeting" id='meet-img-subst' />
              </div>
             <div className='container-about-txt'>
                   <h1>
