@@ -3,12 +3,15 @@ import "./Contact.css"
 import{ Nav, Footer} from "../../links"
 import phone from "../../../assets/img/icon-phone1.png"
 import email from "../../../assets/img/icon-email1.png"
+import telacontatos from "../../../assets/img/tela-contatos.jpg"
 
 
 export function Contacts() {
   return (
     <>
     <Nav></Nav>
+    <div className='imgsolta'></div>
+    <div className='imgsolta2'></div>
     <div className='container-contact-big'>
      <div className='container-contact'>
 
@@ -34,6 +37,7 @@ export function Contacts() {
         <button type="submit" id='btn-submit'>Enviar</button>
      </div>
       <div className='container-img'>
+         
             <h2>➤ OUTRAS FORMAS DE CONTATO</h2>
             <div className='phone'>
               <img src={phone}/>

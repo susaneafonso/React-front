@@ -1,27 +1,26 @@
 import React from 'react'
 import"./About.css"
 import{ Nav} from "../../links"
-import meeting from "../../../assets/img/meeting.png"
-import coding from "../../../assets/img/coding.jpg"
-import code from "../../../assets/img/code.jpg"
+
+
 
 export function About() {
   return (
     <>
       <Nav></Nav>
+
+      <div className='background'>
+     
+      </div>
       <div className="container-about">
 
-             <div className="img-about">
-             <img src={meeting} alt="meeting" id='meet-img' />
-             <img src={code} alt="conding" id='code-img' />
-             <img src={coding} alt="code" id='coding-img' />
-             {/* <img src={meeting} alt="meeting" id='meet-img-subst' /> */}
-             </div>
+          
             <div className='container-about-txt'>
                   <h1>
                        Sobre a TechSolutions
                   </h1>
-                  <p>
+                  <p id='subtt'>Conheça a nossa história</p>
+                  <p id='txto'>
                   Na TechSolutions, estamos comprometidos em fornecer soluções de tecnologia inovadoras e sob medida para impulsionar o sucesso de nossos clientes. Fundada em 2014, nossa empresa nasceu da paixão por tecnologia e da visão de criar um ambiente onde a excelência e a inovação se fundem para enfrentar os desafios mais complexos do mundo digital.
 
 Desde o início, buscamos estabelecer uma cultura empresarial centrada no cliente, na integridade e na excelência técnica. Acreditamos que o verdadeiro valor de uma empresa de tecnologia reside em sua capacidade de entender as necessidades únicas de cada cliente e fornecer soluções que superem suas expectativas.
